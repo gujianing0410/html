@@ -1,0 +1,48 @@
+body{margin: 0; padding: 0;}
+img{border:0;}
+#mzheader{width: 1171px;*width:1349px; height: 50px;*height:80px;float: left;background-image:url(../images/head.jpg);padding-top: 30px;padding-left: 178px;}
+#mzlogo{width: 115px;height: 20px;background-image: url(../images/head20121226.png);background-position: 0 -60px;float: left;}
+#menu{width: 605px;height: 18px;padding-top: 4px;float: left;background-image:url(../images/head20121226.png);background-repeat:no-repeat;background-position: 0 5px;margin-left: 30px;}
+#menu1{width: 98px;height: 18px;float: left;margin-right: 2px;}
+#mzcust{width: 89px;height: 18px;float: left;margin-left: 170px;background-image: url(../images/head20121226.png);background-position: -118px -59px;background-repeat: no-repeat;}
+#denglu{width: 24px;height: 17px;float: right;color: rgb(162, 162, 162);font-size: 12px;line-height: 19px;font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";text-decoration: none;}
+#denglu:hover{color: rgb(0,0,0);}
+#xiegang{width: 5px;height: 19px;float: right;color: rgb(162, 162, 162);font-size: 12px;line-height: 19px;margin-left: 5px;margin-right: 5px;font-weight: 700;}
+#zhuce{width: 24px;height: 17px;float:right;color: rgb(162, 162, 162);font-size: 12px;line-height: 19px;font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";text-decoration: none;}
+#zhuce:hover{color: rgb(0,0,0);}
+#mzhome{width: 1349px;height: 1281px;float: left;background-image:url(../images/home.jpg);}
+#mzfooter{width: 1349px;height: 123px;float: left;padding-top: 30px;}
+#image1{width:1080px;height: 682px;background-image:url(../images/mx3.jpg);margin: 0 auto; *margin-left: 194px;}
+#img1{width: 1080px;height: 622px;display: block;}
+#image2{width: 960px;height: 599px;margin: 0 auto;*margin-left: 194px;}
+#img2{display: block; width: 657px;height: 295px;float: left;background-image: url(../images/mx2.jpg);}
+#img3{display: block; width: 294px;height: 294px;float: left;background-image: url(../images/mx2.jpg);background-image: url(../images/activity.jpg);margin-left: 9px;}
+#img4{display: block; width: 657px;height: 295px;float: left;background-image: url(../images/Mx3pc.jpg);margin-top: 10px;}
+#img5{width:294px;height: 138px;float: left;margin-left: 9px; background-image: url(../images/weibo.jpg);margin-top: 10px;}
+#img6{width: 294px;height: 148px;float: left; background-image: url(../images/weixin.jpg);margin-top: 9px;margin-left: 9px;}
+#qqwblogo{display: block; width: 40px;height: 40px;margin-top: 59px;margin-right:13px;float: right; }
+#weibologo{display: block; width: 40px;height: 40px;margin-top: 59px;margin-right:3px;float: right; }
+#foot1{width: 412px;height: 29px;margin:10px auto 0 auto;padding-top: 13px;*margin-left: 450px;position: relative;}
+.ft1{width: 56px;height: 19px;color: rgb(81, 81, 81);font-family:"微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";font-size: 14px;text-decoration: none;float: left;}
+.ft6{width: 95px;height: 19px;float: left; background-image:url(../images/head20121226.png);background-position: -190px -56px;background-repeat: no-repeat;text-align: center;}
+.ft7{width: 90px;height: 19px;color: rgb(81, 81, 81);font-family:"微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";font-size: 14px;text-decoration: none;  cursor:default;text-align:left;}
+#img1{width: 18px;height: 18px;float: left;}
+.ft2{width: 1px;height: 11px;color: #888888;font-size: 11px;float: left;margin-left: 8px;margin-right: 13px;line-height: -2px;margin-top: 3px;}
+.ft1:hover{color: rgb(0,0,0);}
+.ft7:hover{color: rgb(0,0,0);}
+#copyright{width: 1080px;height: 30px;margin:0 auto;}
+#copyright1{width: 800px;*width:900px;height: 15px;text-align:right;font-size: 12px;color: rgb(81, 81, 81);padding-top: 15px;font-family:"微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";float: left;}
+#ft3{color: rgb(81, 81, 81);text-decoration: none;}
+#ft3:hover{color: rgb(0,0,0);}
+#ft4{width: 24px;height: 24px;background-image:url(../images/head20121226.png); background-position: -59px -85px;background-repeat: no-repeat;float:left;margin-left: 20px;margin-top: 5px;}
+#ft5{width: 24px;height: 24px;background-image:url(../images/head20121226.png); background-position: -90px -85px;background-repeat: no-repeat;float:left;margin-top: 5px;margin-left: 2px;}
+#global{width: 140px;height: 200px;border:1px solid rgb(225, 228, 232);z-index: 2000;background-color: rgb(254, 254, 254);float: left;position: absolute;top: -192px;display: none;}
+.checked{display: block; width: 118px;height: 40px;margin :0 auto;padding-left: 10px;border-bottom: 1px solid rgb(228, 231, 233);float: left;line-height: 40px;font-size: 14px;color: rgb(0,0,0);text-align: center;text-align: left;font-family:"微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";text-decoration: none;}
+#checked2{border-bottom: 0;}
+.checked1{display: block; width: 118px;height: 40px;margin :0 auto;padding-left: 10px;border-bottom: 1px solid rgb(228, 231, 233);float: left;line-height: 40px;font-size: 14px;color: rgb(29, 174, 237);text-align: center;text-align: left;font-family:"微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";text-decoration: none;}
+.checked:hover{color: rgb(81, 81, 81);}
+
+#floatbar{width:125px;height: 42px;position:absolute;left: 1224px;top: 380px;z-index: 200;}
+#bar{display: block; width:125px;height: 42px;text-decoration: none;}
+#btnc{width:35px;height: 35px;border:1px solid #E6E6E6;float: right;background-image:url(../images/icon.png);background-position: 4px -77px;background-repeat: no-repeat; }
+#barcontent{float:right; width: 83px;height: 42px;font-size: 14px;font-weight: 700;line-height: 40px;color: #000;margin-left: 5px;display: none;}

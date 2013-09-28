@@ -1,0 +1,63 @@
+*{border: 0px none;outline: 0px none; background-repeat: no-repeat;}
+ul,li{list-style: none;}
+img{border: 0;}
+a{text-decoration: none;outline: none;}
+body{margin:0;padding: 0;}
+
+#home{width: 1349px;height:1854px; background-image: url(../images/body.jpg);background-position: 50% 0%;font-family: Georgia;line-height: 22px;color: rgb(82, 97, 113);}
+#main{width: 1349px;height:1854px;float:left;}
+#award_icon{width: 69px;height: 170px;position: absolute;z-index: 1;right: 0px;top: 0px;background-image:url(../images/award.png);}
+#icon{display: block;width: 69px;height: 170px;float: left;}
+#topbar{width: 256px;height: 189px;position: absolute;right: 0px;margin-left: 81%;z-index: 1;top:300px;}
+#touchbutton{width: 154px;height: 189px;float: right;background-image: url(../images/touch_button.png);}
+#pagecontent{width: 980px;height: 1854px;margin :0 auto;*margin-left: 184px;}
+#topinfo{width: 950px;height: 43px;padding-top: 27px;float: left;}
+#topimg{width: 232px;height: 37px;float: right;background-image: url(../images/top_contact_info_img.gif);}
+#pageheader{width: 980px;height: 151px;padding-top: 22px;float: left;}
+#logoarea{width: 350px;height: 145px;float: left;background-image: url(../images/logo_img.png);}
+#navigationarea{width: 433px;height: 36px;margin-top: 36px;margin-right: 60px;float: right;}
+.who{width: 75px;height: 36px;float: left;}
+.who1{width: 51px;height: 36px;float: left;background-image:url(../images/navigation.png);}
+.who1:hover{background-position: 0 -36px;}
+.what{width: 64px;height: 36px;float: left;margin-right: 22px;}
+.what1{width: 64px;height: 36px;float: left;background-image:url(../images/navigation.png);background-position: -75px 0;}
+.what1:hover{background-position:-75px -36px;}
+.forwhom{width: 97px;height: 36px;float: left;margin-right: 25px;}
+.forwhom1{width: 97px;height: 36px;float: left;background-image:url(../images/navigation.png);background-position: -161px 0;}
+.forwhom1:hover{background-position: -161px -36px;}
+.where{width: 66px;height: 36px;float: left;margin-right: 27px;}
+.where1{width: 66px;height: 36px;float: left;background-image:url(../images/navigation.png);background-position: -283px 0;}
+.where1:hover{background-position: -283px -36px;}
+.wow{width: 57px;height: 36px;float: left;}
+.wow1{width: 57px;height: 36px;float: left;background-image:url(../images/navigation.png);background-position: -376px 0;}
+.wow1:hover{background-position: -376px -36px;}
+#gunning{width: 980px;height: 375px;margin-top: -57px;float: left;background-image: url(../images/gunning_down_img.gif);background-position: 290px -1px;margin-bottom: 30px;}
+#heading{width: 354px;height: 187px;padding-top: 111px;}
+#headimg{width: 354px;height: 181px;float: left;background-image: url(../images/gunning_down_title.png);}
+#workarea{width: 980px;height: 321px;float: left;}
+#heading1{width: 980px;height: 30px;float: left;background-image:url(../images/we_work_for_title.png); }
+.clickleft{width: 37px;height: 37px;position: relative;top: 130px;float: left;background-image: url(../images/previous_arrow.png);cursor: pointer;}
+.clickright{width: 37px;height: 37px;position: relative;top: 130px;float: right;background-image: url(../images/next_arrow.png);cursor: pointer;}
+#wn1{width: 872px;height: 270px;top: 21px; margin-left: 60px;position: relative;overflow: hidden;}
+#lyr1{width: 2834px;height: 266px;}
+.btpic{width: 216px;height: 266px;float: left;margin-right: 2px;}
+
+#whoweare{width: 980px;height: 265px;float: left;}
+#whowearecontent{width: 980px;height: 207px;padding-top: 30px;padding-left: 15px;float: left;}
+#heading2{width: 980px;height: 29px;background-image:url(../images/who_we_are_title.png);}
+#linksarea{width: 980px;height: 150px;margin-top: 15px;float: left;}
+#area2{width: 976px;height: 150px;float: left;}
+#websitedesign{width: 176px;height: 150px;float: left;background-image:url(../images/home_services_icon.png);margin-left: 18px;background-position: -18px 0%;}
+#websitedesign:hover{background-position: -18px -150px;}
+#branding{width: 102px;height: 150px;float: left;background-image:url(../images/home_services_icon.png);margin-left: 80px;background-position: -260px 0%;}
+#branding:hover{background-position: -260px -150px;}
+#development{width: 148px;height: 150px;float: left;background-image:url(../images/home_services_icon.png);margin-left: 67px;background-position: -429px 0%;}
+#development:hover{background-position: -429px -150px;}
+#promotion{width: 116px;height: 150px;float: left;background-image:url(../images/home_services_icon.png);margin-left: 67px;background-position: -644px 0%;}
+#promotion:hover{background-position: -644px -150px;}
+#outsourcing{width: 135px;height: 150px;float: left;background-image:url(../images/home_services_icon.png);margin-left: 67px;background-position: -827px 0%;}
+#outsourcing:hover{background-position: -827px -150px;}
+#experimental_work{width: 600px;height: 306px;padding: 80px 0 30px 40px;margin-top: 60px;float: left;}
+#hignslide{width: 910px;height: 22px;padding-left: 40px;padding-bottom: 15px;float: left;}
+.qwe{width: auto;height: 14px;font-size: 11px;line-height: 22px;color: rgb(0, 34, 114);float: left;margin-right: 10px;}
+.pt:hover{color: #710b23;}

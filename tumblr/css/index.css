@@ -1,0 +1,28 @@
+*{margin:0;padding:0;}
+;
+body{}
+.beijing{width:100%;height:100%; background-image: url("images/beijing.jpg");position: fixed;background-size: cover;background-repeat: no-repeat;}
+.heading{width: 305px;height: 450px; padding: 20px 30px 30px 30px;position: relative;top: 0px;left:39%;z-index: 5;}
+#dash{width: 245px;height: 56px;position: absolute; top: 107px;}
+#logo{width: 243px;height: 55px; background-image: url("images/logo.png");background-repeat: no-repeat;display: block;}
+#subheading{width: 500px;height: 48px;position: absolute;top:175px;left:-90px;}
+.subheadingtxt{color: rgb(255, 255, 255);font-family:"Helvetica Neue","HelveticaNeue",Helvetica,Arial;font-size: 20px;line-height: 24px;font-weight: 400;text-align: center;opacity: 0.88;}
+.signup{width: 245px;height: 113px;position: absolute;top: 250px;border:1px solid rgba(0, 0, 0, 0.9);border-radius: 5px;background-color: #fff;}
+.email{display: block;width: 245px;height: 37px;float: left;font-family:"Helvetica Neue","HelveticaNeue",Helvetica,Arial;font-weight: 700;color: rgb(68, 68, 68);text-indent: 10px;line-height:30px;font-size: 20px;background-color: #f6f4f5; border-left: 0;background-image: url("images/email.jpg");background-repeat: no-repeat;background-position: 7px 0;border-right: 0;border-top: 0;}
+.password{display: block;width: 245px;height: 37px;float: left;font-family:"Helvetica Neue","HelveticaNeue",Helvetica,Arial;border: 0;font-weight: 700;color: rgb(68, 68, 68);text-indent: 10px;line-height:30px;background-color: #f6f4f5;font-size: 20px;background-image: url("images/password.jpg");background-repeat: no-repeat;background-position: -2px 0;}
+.username{display: block;width: 245px;height: 37px;float: left;font-family:"Helvetica Neue","HelveticaNeue",Helvetica,Arial;font-weight: 700;color: rgb(68, 68, 68);text-indent: 10px;line-height:30px;font-size: 20px;border-top: 0;border-left: 0;background-color: #f6f4f5;background-image: url("images/username.jpg");background-repeat: no-repeat;border-right: 0;}
+.submit{width: 243px;height: 37px;position: absolute;top: 380px;border:1px solid rgba(0, 0, 0, 0.3);*border: 1px solid #70739D;background-color:#5993BD;border-radius: 5px;}
+.dengru{display:block;width: 241px;height: 35px;font-weight: 700px;line-height: 34px;color: rgb(255, 255, 255);font-family:"Helvetica Neue","HelveticaNeue",Helvetica,Arial;text-decoration: none;text-align: center;}
+.loginlink{width: 245px;height: 17px;position: absolute;top: 420px;padding-top:15px;}
+.dashboard{width:133px;height: 17px;display:block;font-size: 12px;line-height: 15px;color: rgb(255, 255, 255);text-decoration: none; color: rgb(255, 255, 255);font-family:"Helvetica Neue","HelveticaNeue",Helvetica,Arial;margin-left: 50px;}
+.footer{width: 1366px;height: 100px;position: relative;margin-top: 52px;}
+.legal{width: 150px;height: 25px;padding-right: 30px;padding-left: 30px;margin-bottom: 19px;margin-top: 60px;float: left;}
+.terms{display:block; width: 35px;height: 25px;float:left;padding-right: 12px;border-right: 1px solid rgba(255, 255, 255, 0.4);margin-right: 12px;font-size: 12px;line-height: 25px;color: rgb(255, 255, 255);text-decoration: none; color: rgb(255, 255, 255);font-family:"Helvetica Neue","HelveticaNeue",Helvetica,Arial;}
+.privacy{display:block; width: 38px;height: 25px;float:left;padding-right: 12px;margin-right: 1px;font-size: 12px;line-height: 25px;color: rgb(255, 255, 255);text-decoration: none; color: rgb(255, 255, 255);font-family:"Helvetica Neue","HelveticaNeue",Helvetica,Arial;}
+.blogs{width: 190px;height: 100px;float: left;border-right: 1px solid rgba(255, 255, 255, 0.4);*border-right: 1px solid rgb(255, 255, 255);margin-left: 200px;}
+.posts{width: 190px;height: 100px;float: left;border-right: 1px solid rgba(255, 255, 255, 0.4);*border-right: 1px solid rgb(255, 255, 255);}
+.signs{width: 190px;height: 100px;float: left;}
+.number{width: 180px;height: 50px;color: rgb(255, 255, 255);font-family:"Helvetica Neue","HelveticaNeue",Helvetica,Arial;font-size: 43px;line-height: 70px;font-weight: 700;text-align: center;float: left;}
+.description{width: 180px;height: 50px;color: rgb(255, 255, 255);font-family:"Helvetica Neue","HelveticaNeue",Helvetica,Arial;font-size: 18px;line-height: 40px;font-weight: 400;text-align: center;float: left;}
+.postinfo{width: 188px;height: 25px;float: right;margin-right: 30px;margin-top: 60px;}
+.posted{display:block; width: 188px;height: 25px;float:left;font-size: 12px;line-height: 25px;color: rgb(255, 255, 255);text-decoration: none; color: rgb(255, 255, 255);font-family:"Helvetica Neue","HelveticaNeue",Helvetica,Arial;background-image: url("images/xiaoren.png");background-repeat: no-repeat;background-position: 162px 0}
