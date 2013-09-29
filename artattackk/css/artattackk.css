@@ -8,8 +8,37 @@ body{margin:0;padding: 0;}
 #main{width: 1349px;height:1854px;float:left;}
 #award_icon{width: 69px;height: 170px;position: absolute;z-index: 1;right: 0px;top: 0px;background-image:url(../images/award.png);}
 #icon{display: block;width: 69px;height: 170px;float: left;}
-#topbar{width: 256px;height: 189px;position: absolute;right: 0px;margin-left: 81%;z-index: 1;top:300px;}
-#touchbutton{width: 154px;height: 189px;float: right;background-image: url(../images/touch_button.png);}
+#topbar{width: 256px;height: 189px;position: absolute;right: 0px;margin-left: 81%;z-index: 1;visibility: hidden;}
+#popup{width: 100%;height: 100%;position: fixed;background-color: rgba(57,57,57,0.7);z-index: 12;display: none;}
+#popup1{width: 100%;height: 100%;position: fixed;background-color: rgba(57,57,57,0.7);z-index: 14;display: none;}
+#popupbox{width: 842px;height: 549px;border: 12px solid rgb(255, 255, 255);position:fixed;top:25px;left: 235px;z-index: 15;display: none; }
+#box1{width: 816px;height: 523px;padding: 12px;border:1px solid rgb(0,0,0);float: left;background-color:#f1f0ec;background-image:url(../images/popup_center_img.png);background-position: 28px 41px;}
+#box2{width: 776px;height: 523px;padding-left: 20px;padding-right: 20px;float: left;}
+#close{width: 39px;height: 37px;float: right;background-image:url(../images/close_icon.png);cursor: pointer;}
+#close:hover{background-image:url(../images/close_icon.png);background-position: 0 -38px;}
+#forma{width: 776px;height: 262px;padding-top: 164px;float: left;}
+.row{width: 776px;height: 36px;padding-top: 15px;text-align: left;}
+#row1{width: 776px;height: 93px;padding-top: 15px;text-align: left;margin-bottom: 10px;}
+.input_textarea{width: 776px;height: 93px;float: left;padding: 15px;font: 12px/20px Georgia;color: rgb(69, 69, 69);overflow: auto;background-image:url(../images/popup_textarea_bg.png);background-color:#f1f0ec; }
+.float-left{width: 353px;height: 36px;float: left;}
+.float-right{width: 353px;height: 36px;float: right;}
+.input-text{width: 353px;height: 36px;float: left;background-image: url(../images/popup_input_bg.png);color: rgb(69, 69, 69);font: 12px/36px Georgia;padding: 0 10px;}
+.label_capcha{width: auto;float: left;text-align: left;font: 15px/36px Georgia;color: rgb(18, 18, 18);}
+.read_capcha{width: auto; float: left;margin-left: 18px;}
+.enter_capcha{width: 250px;height: 36px;padding: 0 10px 0 10px;margin-left: 18px;background-image:url(../images/popup_input_bg.png);font: 12px/36px Georgia;}
+.popup_submit{width: 127px;height: 37px;float:right;background-image:url(../images/letsdoit_button.png);cursor: pointer; }
+.popup_submit:hover{background-position: 0 -38px;}
+.styleselect{display: block;width: 353px;height: 36px;float: left;background-image:url(../images/popup_select_bg.png);font: 12px/36px Georgia;color: rgb(145, 144, 144);padding: 0 10px;cursor: pointer;}
+#container{position: absolute;width: 353px;height: 182px;text-align: left;z-index: 500;background-color: rgb(255, 255, 255);margin-top: -6px;display: none;}
+.li1{width: 240px;height: 26px;float: left;padding-left: 10px;font: 12px/26px Georgia;color: rgb(82, 97, 113);cursor: pointer;}
+.li1:hover{color: #000;}
+#bigimg1{width: 680px;height: 475px;border: 12px solid rgb(255, 255, 255);position:fixed;top:25px;left: 310px;z-index: 13;background-image:url(../images/work_img1_b.jpg); display: none;cursor:pointer; }
+#bigimg2{width: 680px;height: 475px;border: 12px solid rgb(255, 255, 255);position:fixed;top:25px;left: 310px;z-index: 13;background-image:url(../images/work_img2_b.jpg); display: none;cursor:pointer;}
+#bigimg3{width: 680px;height: 475px;border: 12px solid rgb(255, 255, 255);position:fixed;top:25px;left: 310px;z-index: 13;background-image:url(../images/work_img3_b.jpg); cursor:pointer;display: none;}
+#bigimg4{width: 680px;height: 475px;border: 12px solid rgb(255, 255, 255);position:fixed;top:25px;left: 310px;z-index: 13; background-image:url(../images/work_img4_b.jpg);display: none;cursor:pointer;}
+#bigimg5{width: 680px;height: 475px;border: 12px solid rgb(255, 255, 255);position:fixed;top:25px;left: 310px;z-index: 13;background-image:url(../images/work_img5_b.jpg); display: none;cursor:pointer;}
+#bigimg6{width: 680px;height: 475px;border: 12px solid rgb(255, 255, 255);position:fixed;top:25px;left: 310px;z-index: 13;background-image:url(../images/work_img6_b.jpg);display: none; cursor:pointer;display:}
+#touchbutton{width: 154px;height: 189px;float: right;background-image: url(../images/touch_button.png);cursor: pointer;}
 #pagecontent{width: 980px;height: 1854px;margin :0 auto;*margin-left: 184px;}
 #topinfo{width: 950px;height: 43px;padding-top: 27px;float: left;}
 #topimg{width: 232px;height: 37px;float: right;background-image: url(../images/top_contact_info_img.gif);}
@@ -58,6 +87,15 @@ body{margin:0;padding: 0;}
 #outsourcing{width: 135px;height: 150px;float: left;background-image:url(../images/home_services_icon.png);margin-left: 67px;background-position: -827px 0%;}
 #outsourcing:hover{background-position: -827px -150px;}
 #experimental_work{width: 600px;height: 306px;padding: 80px 0 30px 40px;margin-top: 60px;float: left;}
+#heading3{width: 600px;height: 33px;float: left; background-image:url(../images/our_experimental_work_title.png);padding-bottom: 12px;}
+#bthb{width:600px;height: 261px;float: left; }
+#pt1{width: 185px;height: 115px;float: left;margin-right: 13px;margin-bottom: 15px;cursor:pointer;}
+#pt2{width: 185px;height: 115px;float: left;margin-right: 13px;margin-bottom: 15px;cursor:pointer;}
+#pt3{width: 185px;height: 115px;float: left;margin-right: 13px;margin-bottom: 15px;cursor:pointer;}
+#pt4{width: 185px;height: 115px;float: left;margin-right: 13px;cursor:pointer;}
+#pt5{width: 185px;height: 115px;float: left;margin-right: 13px;cursor:pointer;}
+#pt6{width: 185px;height: 115px;float: left;margin-right: 13px;cursor:pointer;}
+
 #hignslide{width: 910px;height: 22px;padding-left: 40px;padding-bottom: 15px;float: left;}
 .qwe{width: auto;height: 14px;font-size: 11px;line-height: 22px;color: rgb(0, 34, 114);float: left;margin-right: 10px;}
 .pt:hover{color: #710b23;}
