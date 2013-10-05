@@ -1,0 +1,71 @@
+*{border: 0px none;outline: 0px none;margin:0;padding: 0;background-repeat: no-repeat;}
+ul,li{list-style: none;}
+img{border: 0;}
+a{text-decoration: none;outline: none;}
+body{font-family: sans-serif;font-size: medium;text-align: center;}
+
+#main{margin:0px auto;position: relative;width: 100%;text-align: left;height: 3600px;}
+#thickbox{width: 160px;height: 160px;position: fixed;right: -25px;top: -25px;display: block;background-image: url(../images/english.png);cursor: pointer;z-index: 50;}
+#thickbox:hover{background-position:0 -160px ;}
+#pardon{width: 181px;height: 175px;position: fixed;left: 15px;top: 15px;z-index: 50;background-image:  url(../images/sticker-pojeta.png);}
+#services{height: 1200px;position: relative;z-index: 3;background-image:url(../images/01-bg.jpg);background-repeat: repeat-x;}
+#aboutme{height: 1200px;position: relative;background-image:url(../images/02-bg.jpg);background-repeat: repeat-x;}
+#contact{height: 1200px;position: relative;z-index: 0;background-image:url(../images/03-bg.jpg);background-repeat: repeat-x;}
+#footer{width:100%;height: 195px;position: absolute;z-index: 10;background-image:url(../images/03-dno.jpg);background-position: 50% 0;bottom: 0px;}
+
+
+/* */                         
+.inside{margin: 0 auto;position: relative;width: 960px;height:379px;z-index: 1;}
+#pojeta{width: 417px;height: 379px;left: 2px;top: 292px;position: absolute;background-image:  url(../images/01-nadpis.jpg);cursor: help;}
+#rocket{width: 514px;height: 240px;left:61px;top: 52px;position: absolute;background-image:  url(../images/raketka-pojeta.jpg);cursor: help;z-index: 5;}
+#opicak{width: 146px;height: 89px;left:382px;top: 69px;position: absolute;background-image:  url(../images/opicak-spilka.jpg);z-index:15;cursor: help;}
+#ufo{width: 462px;height:388px;left:205px;top:647px;position: absolute;background-image:url(../images/ufo-potocky.jpg);z-index: 5;cursor: help;}
+#knez{width: 216px;height:294px;right: 0;top:970px;position: absolute;background-image:url(../images/knez-tvrdek.jpg);z-index: 5;cursor: help;}
+#pro{width:273px;height:275px;right:52px;top:520px;position: absolute;background-image:url(../images/01-nabidka.jpg);z-index: 10;}
+#pracu{width: 85px;height: 85px;float: right;}
+.nav1{display: block;width:77px;height:26px;right:145px;top:890px;position: absolute;background-image:url(../images/01-links-aboutme.jpg);cursor: pointer;}
+.nav1:hover{background-position:0 -26px;}
+.nav2{display: block;width:77px;height:26px;right:54px;top:890px;position: absolute;background-image:url(../images/01-links-contact.jpg);cursor: pointer;}
+.nav2:hover{background-position:0 -26px;}
+/**/
+
+
+/**/
+.inside2{margin: 0 auto;position: relative;width: 960px;height:1200px;z-index: 1;background-image: url(../images/02-podklad.jpg);background-position: 50% 215px;}
+#niao{width:285px;height:124px;left:58px;top:238px;position: absolute;background-image:url(../images/02-nadpis.jpg);}
+#text{width:543px;height:113px;left:65px;top:410px;position: absolute;background-image:url(../images/02-text.jpg);color:rgb(255,255,255);font-size: 14.7833px;line-height: 19.2167px;padding:15px 17px 17px 17px;text-align: justify;font-family: sans-serif;}
+.nav3{position: absolute;right: 54px;top: 190px;width: 93px;height: 26px;cursor: pointer;display: block;background-image:url(../images/02-links-services.jpg);}
+.nav3:hover{background-position:0 -26px;}
+#sochy{width:97px;height:109px;left:153px;top:612px;position: absolute;background-image:url(../images/sochy-dorazilova.jpg);cursor: help;}
+#jelen{width:130px;height:102px;left:523px;top:803px;position: absolute;background-image:url(../images/jelen-cernocky.jpg);cursor: help;}
+.nav4{position: absolute;right: 38px;top: 923px;width: 93px;height: 26px;cursor: pointer;display: block;background-image:url(../images/02-links-contact.jpg);}
+.nav4:hover{background-position:0 -26px;}
+/**/
+
+/**/
+.inside3{margin: 0 auto;position: relative;width: 960px;height:1200px;z-index: 1;background-image: url(../images/03-paprsky.jpg);background-position: 50% 215px;background-position: 0px 147px;}
+.nav5{position: absolute;right:145px;top: 180px;width: 93px;height: 26px;cursor: pointer;display: block;background-image:url(../images/03-links-aboutme.jpg);}
+.nav5:hover{background-position:0 -26px;}
+.nav6{position: absolute;right: 54px;top: 180px;width: 93px;height: 26px;cursor: pointer;display: block;background-image:url(../images/03-links-services.jpg);}
+.nav6:hover{background-position:0 -26px;}
+#fish{position: absolute;width: 314px;height: 245px;left: 67px;top: 226px;background-image:url(../images/03-nadpis.jpg);}
+#potapeka{position: absolute;width: 289px;height: 225px;right:8px;top: 273px;background-image:url(../images/potapecka-zatloukal.jpg);cursor: help;}
+#ponorka{position: absolute;width: 288px;height:407px;left: 322px;top: 373px;background-image:url(../images/ponorka-bulin.jpg);cursor: help;}
+#mailto{position: absolute;width: 273px;height:275px;right: 52px;top: 601px;background-image:url(../images/03-kontakt.jpg);}
+#asd{width: 85px;height: 85px;float: right;}
+#qwe{width: 960px;height: 17px;margin:-25px auto 0 auto;padding: 185px 0 6px 0;position: relative;}
+#wer{width: 489px;height: 12px;padding-left: 70px;line-height: 17.25px;font-size:11px;color: rgb(184, 217, 215);}
+#ert{position: absolute;top:187px;right: 120px;width: 98px;height: 17px;background-image:url(../images/03-copy.jpg);}
+#zxc{position: absolute;top:179px;right: 80px;width: 35px;height: 33px;background-image:url(../images/03-faceit.jpg);}
+#zxc:hover{background-position: 0 -33px;}
+
+/**/
+.shuoming1{position: absolute;top: -30px;left: 130px;}
+.fujia{width: 136px;height: 86px;padding:12px 5px 0 20px;background-image:url(../images/hover.png);z-index: 10;font-size: 12px;line-height: 8.8px;display: none;}
+.shuoming2{position: absolute;top: -55px;left:-100px;width: 136px;height: 65px;padding:12px 5px 0 20px;background-image:url(../images/hover.png);z-index: 10;font-size: 12px;line-height: 8.8px;display: none;}
+.shuoming3{position: absolute;top: -90px;left: 140px;}
+.shuoming4{position: absolute;top: -90px;left:-20px;}
+.shuoming5{position: absolute;top: -90px;left:-20px;}
+.shuoming6{position: absolute;top: -90px;left:-20px;}
+.shuoming7{position: absolute;top: -30px;left:120px;}
+.shuoming8{position: absolute;top: -40px;left:70px;}
