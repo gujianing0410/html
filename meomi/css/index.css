@@ -1,0 +1,71 @@
+*{border: 0px none;outline: 0px none;margin:0;padding: 0;background-repeat: no-repeat;}
+ul,li{list-style: none;}
+img{border: 0;}
+a{text-decoration: none;outline: none;}
+body{font-family: sans-serif;font-size: medium;text-align: center;}
+
+#monster1{width: 1349px;height: 1348px;background-image: url(../images/skytile.gif);background-repeat: repeat;}
+#monster2{width: 1349px;height: 255px;background-image:url(../images/cloudtile.gif);background-repeat: repeat-x;}
+#bodsizer {width: 1062px;height: 1348px;margin:0 auto;}
+#bod1{width:1062px;height:325px;}
+#bod2{width:1062px;height:1023px;}
+#atticlayer{width: 1062px;height: 240px;}
+#home{width: 1062px;height: 50px;}
+#rowspan1{width: 103px;height: 50px;float: left;}
+#rowspan2{width: 157px;height: 50px;float: left;background-image: url(../images/homeoff.gif);}
+#rowspan2:hover{background-image: url(../images/homeon.gif);}
+#rowspan3{width: 479px;height: 50px;float: left;}
+#rowstop{width: 479px;height: 27px;float: left;}
+#rowsbottom{width: 479px;height: 23px;float: left;background-image:url(../images/subnav-tile.gif); background-repeat: repeat-x;}
+#rows1{width: 123px;height: 27px;float: left;background-image: url(../images/aboutoff.gif);}
+#rows2{width: 95px;height: 27px;float: left;background-image: url(../images/portfoliooff.gif);}
+#rows3{width: 119px;height: 27px;float: left;background-image: url(../images/critteroff.gif);}
+#rows4{width:70px;height: 27px;float: left;background-image: url(../images/storeoff.gif);}
+#rows5{width: 72px;height: 27px;float: left;background-image: url(../images/contactoff.gif);}
+#rows1:hover{background-image: url(../images/abouton.gif);}
+#rows2:hover{background-image: url(../images/portfolioon.gif);}
+#rows3:hover{background-image: url(../images/critteron.gif);}
+#rows4:hover{background-image: url(../images/storeon.gif);}
+#rows5:hover{background-image: url(../images/contacton.gif);}
+#rowspan4{width: 323px;height: 50px;float: left;}
+
+
+#top1{width: 108px;height:1023px;float: left;background-image:url(../images/leftside_tile.gif);background-repeat: repeat-y;}
+#top2{width:583px;height:1023px;float: left;background-color:#3e2b09;}
+#top3{width: 371px;height:1023px;float: left;background-image:url(../images/rightwall_tile.gif);background-repeat: repeat-y;}
+
+#balconylayer{width: 108px;height: 215px;}
+
+#news1{width: 11px;height: 1023px;float: left;}
+#news2{width: 228px;height: 1023px;float: left;}
+#news3{width: 15px;height: 1023px;float: left;}
+#news4{width: 320px;height: 1023px;float: left;}
+#news5{width: 9px;height: 1023px;float: left;}
+
+#newslayer{width: 228px;height: 276px;float: left;margin-bottom: 20px;}
+#ftv{width: 228px;height: 70px;float: left;margin-bottom: 20px;}
+#ftv1{width: 50px;height: 70px;float: left;margin-left: 3px; margin-right: 3px;background-image: url(../images/fboff.gif);}
+#ftv2{width: 50px;height: 70px;float: left;margin-left: 3px; margin-right: 3px;background-image: url(../images/twtoff.gif);}
+#ftv3{width: 50px;height: 70px;float: left;margin-left: 3px; margin-right: 3px;background-image: url(../images/fkroff.gif);}
+#ftv4{width: 50px;height: 70px;float: left;margin-left: 3px; margin-right: 3px;background-image: url(../images/vimoff.gif);}
+#ftv1:hover{background-image: url(../images/fbon.gif);}
+#ftv2:hover{background-image: url(../images/twton.gif);}
+#ftv3:hover{background-image: url(../images/fkron.gif);}
+#ftv4:hover{background-image: url(../images/vimon.gif);}
+
+#octon{width: 228px;height: 307px;float: left;margin-top: 20px;}
+#asdf{width: 228px;height: 135px;float: left;background-image:url(../images/leftback.gif); }
+.copy{width: 208px;height: 90px;margin:10px;font-family: verdana,helvetica,arial;font-size: 11px;line-height: 15px;color: rgb(202, 190, 133);text-align: left;}
+.copy1{color: rgb(202, 190, 133);text-decoration: underline;}
+.copy1:hover{text-decoration: none;color: rgb(197,102,3);}
+
+#fanta{width: 180px;height: 19px;float: left;margin-top: 10px;}
+#werty{width: 320px;height: 697px;float: left;margin-top: 20px;}
+.feature{width: 320px;height: 125px;float: left;margin-bottom: 15px;}
+.feature2{width: 170px;height: 125px;float: right;background-image:url(../images/featback.gif);}
+.copy2{width: 150px;height: 105px;margin: 10px;font-family: verdana,helvetica,arial;font-size: 11px;line-height: 15px;color: rgb(202, 190, 133);text-align: left;}
+
+
+#sideroom1layer{width: 371px;height: 315px;float: left;}
+#sideroom2layer{width: 371px;height: 238px;float: left;}
+#ghj{width: 228px;height: 217px;margin-top: 45px;}
