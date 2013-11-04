@@ -1,0 +1,802 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+		<link rel="stylesheet" type="text/css" href="css/tuangou.css"></link>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/jquerydemo.js"></script>
+	</head>
+	<title>窝窝团</title>
+	<body>
+		<div id="headtop">
+			<div id="clearfix">
+				<li id="toplogin">
+					<span class="gray1 gray2">
+						欢迎来到窝窝团！请 [<a class="gray2 gray3" href="">登录</a>]&nbsp;|&nbsp;[<a class="gray2 gray3" href="">注册</a>]
+				
+					</span>
+				</li>
+				<li id="topuser">
+					<div class="headlist1">
+						<a class="gray2 gray4" href="">收藏本站</a>
+					</div>
+					<p class="gray5">|</p>
+					<div class="headlist1">
+						<a class="gray2 gray4" href="">邮件订阅</a>
+					</div>
+					<div class="headlist2">
+						<a class="gray2 gray6" href="">最近浏览</a>
+						<div class="triangleT"></div>
+						<div class="triangleP"></div>
+						<div class="whitebar"></div>
+						<div class="hisbox">暂无浏览记录</div>
+					</div>	
+					<div class="headlist3">
+						<a class="gray2 gray4" href="">手机版下载</a>
+					</div>
+					<div class="headlist2">
+						<a class="gray2 gray6" href="">我的窝窝</a>
+						<div class="triangleT"></div>
+						<div class="triangleP"></div>
+						<div class="whitebar"></div>
+						<div class="hisbox" id="hisbox1">
+							<div class="linklist">
+								<a class="gray7" href="">我的订单</a>
+							</div>
+							<div class="linklist">
+								<a class="gray7" href="">我的积分</a>
+							</div>
+							<div class="linklist">
+								<a class="gray7" href="">我的收藏</a>
+							</div>
+							<div class="linklist">
+								<a class="gray7" href="">帐号设置</a>
+							</div>
+							<div class="linklist">
+								<a class="gray7" href="">账户余额</a>
+							</div>
+							<div class="linklist">
+								<a class="gray7" href="">我的评价</a>
+							</div>
+							<div class="linklist">
+								<a class="gray7" href="">代金券</a>
+							</div>
+							<div class="linklist">
+								<a class="gray7" href="">我的留言</a>
+							</div>
+						</div>
+					</div>
+					<div class="headlist3">
+						<a class="gray2 gray4" href="">我的订单</a>
+					</div>
+				</li>
+			</div>
+		</div>
+		<div id="headmin">
+			<div class="headconul">
+				<a id="logoli" href=""></a>
+				<a id="wowotitli" href=""></a>
+				<a id="citybox" href="">【切换城市】</a>
+				<a id="wowoli" href=""></a>
+				<div id="searchli">
+					<input id="searchtype" type="text" placeholder="搜商品、找商家、逛商圈"></input>
+					<a id="sososubmit" href="">搜索</a>
+					<div id="hotkey">
+						<a class="self" href="">花博会</a>
+						<a class="self" href="">恐龙园</a>
+						<a class="self" href="">银牌</a>
+						<a class="self" href="">乐宾百货</a>
+						<a class="self" href="">蛋糕</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="headnav">
+			<div id="navlist">
+				<a class="lime1" href="">窝窝商城</a>
+				<a class="lime1" href="">团购精选</a>
+				<a id="lime2" href="">美食</a>
+				<a class="lime1" href="">娱乐</a>
+				<a class="lime1" href="">电影
+					<div id="hot1"></div>
+				</a>
+				<a class="lime1" href="">美容保健</a>
+				<a class="lime1" href="">生活服务</a>
+				<a class="lime1" href="">结婚
+					<div id="new1"></div>
+				</a>
+				<a class="lime1" href="">旅行</a>
+				<a class="lime1" href="">酒店</a>
+				<a class="lime1" href="">网购</a>
+				<a class="lime1" href="">品牌汇</a>
+				<a id="lime3" href="">
+					<div id="mobileico"></div>
+					手机版
+				</a>
+			</div>
+		</div>
+		<div id="wowofocus"></div>
+		<div id="classify">
+			<div id="dl1">
+				<div class="dlst">分类 |</div>
+				<a class="cnl1" href="">全部</a>
+				<a class="cnl1" href="">自助餐(16)</a>
+				<a class="cnl1" href="">西餐(2)</a>
+				<a class="cnl1" href="">火锅(9)</a>
+				<a class="cnl2" href="">甜品饮品(19)</a>
+				<a class="cnl1" href="">小吃快餐(8)</a>
+				<a class="cnl1" href="">家常菜/私家菜(10)</a>
+				<a class="cnl1" href="">湘菜(2)</a>
+				<a class="cnl1" href="">地方菜(3)</a>
+				<a class="cnl1" href="">创意餐厅/主题餐厅(3)</a>
+				<a class="cnl1" href="">酒店套餐(12)</a>
+				<a class="cnl1" href="">其他中餐(7)</a>
+			</div>
+			<div id="dl2">
+				<div class="dlst">区县 |</div>
+				<a class="cnl1" href="">全部</a>
+				<a class="cnl1" href="">钟楼区(12)</a>
+				<a class="cnl1" href="">天宁区(16)</a>
+				<a class="cnl2" href="">新北区(19)</a>
+				<a class="cnl1" href="">武进区(12)</a>
+				<a class="cnl1" href="">溧阳市(1)</a>
+			</div>
+			<div id="dl3">
+				<a class="cnl2" href="">全部</a>
+				<a class="cnl1" href="">万达广场(19)</a>
+			</div>
+			<div id="dl2">
+				<div class="dlst">人数 |</div>
+				<a class="cnl1" href="">单人餐(8)</a>
+				<a class="cnl1" href="">双人餐(1)</a>
+				<a class="cnl1" href="">3-4人餐(1)</a>
+				<a class="cnl1" href="">5-10人餐(1)</a>
+				<a class="cnl1" href="">其他(8)</a>
+			</div>
+			<div id="dl2">
+				<div class="dlst">价格 |</div>
+				<a class="cnl1" href="">20元以下(9)</a>
+				<a class="cnl1" href="">21-50元(1)</a>
+				<a class="cnl1" href="">51-80元(5)</a>
+				<a class="cnl1" href="">200元以上(1)</a>
+			</div>
+		</div>
+		<ul id="channel">
+			<a id="def1" href="">默认排序</a>
+			<a id="def2" href="">销量</a>
+			<a id="def2" href="">价格</a>
+			<a id="def3" href="">上架时间</a>
+			<input id="todyend" type="checkbox"></input>
+			<label id="dh" for="todyend">无需预约</label>
+		</ul>
+		<div class="body">
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+			<div class="list">
+			
+				<a class="pic" href="">
+					<img width="230px" height="150px" src="images/goods1.jpg"></img>
+					<div class="buynum">
+						<span class="fr">
+							<span class="num1">141</span>人已购买
+						</span>
+					</div>
+				</a>
+				<div class="title">
+					<a  class="tit1" href="">
+						<strong>【万达广场】仙芋传奇</strong>
+						<p class="tit2">芋圆仙草12选1</p>
+					</a>
+				</div>
+				<div class="tit3">
+					<span class="num">¥9.6</span>
+					<span class="past">价值 ¥16</span>
+				</div>
+				<div class="tit4">
+					<span class="qx">万达广场</span>
+					<a class="buy" href=""></a>
+				</div>
+			</div>
+		</div>
+		<div class="hotcity">
+			<div id="city">
+				<strong class="hot_citystr">热门城市：</strong>
+				<a class="hot_citya" href="">北京美食团购</a>
+				<a class="hot_citya" href="">深圳美食团购</a>
+				<a class="hot_citya" href="">无锡美食团购</a>
+				<a class="hot_citya" href="">天津美食团购</a>
+				<a class="hot_citya" href="">沈阳美食团购</a>
+				<a class="hot_citya" href="">济南美食团购</a>
+				<a class="hot_citya" href="">郑州美食团购</a>
+				<a class="hot_citya" href="">石家庄美食团购</a>
+				<a class="hot_citya" href="">成都美食团购</a>
+				<a class="hot_citya" href="">上海美食团购</a>
+				<a class="hot_citya" href="">南京美食团购</a>
+				<a class="hot_citya" href="">长沙美食团购</a>
+				<a class="hot_citya" href="">西安美食团购</a>
+				<a class="hot_citya" href="">广州美食团购</a>
+				<a class="hot_citya" href="">杭州美食团购</a>
+				<a class="hot_citya" href="">青岛美食团购</a>
+				<a class="hot_citya" href="">大连美食团购</a>
+				<a class="hot_citya" href="">宁波美食团购</a>
+				<a class="hot_citya" href="">苏州美食团购</a>
+				<a class="hot_citya" href="">重庆美食团购</a>
+				<a class="hot_citya" href="">武汉美食团购</a>
+				<a class="hot_citya" href="">厦门美食团购</a>
+				<a class="hot_citya" href="">哈尔滨美食团购</a>
+				<a class="hot_citya" href="">合肥美食团购</a>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="bottombox">
+				<div class="boul">
+					<div class="ico1"></div>
+					<div class="lix">用户帮助</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">玩转窝窝</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">常见问题</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">秒杀规则</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">积分规则</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">代金券说明</a>
+					</div>
+				</div>
+				<div class="boul">
+					<div class="ico2"></div>
+					<div class="lix">获取更新</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">玩转窝窝</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">窝窝团新浪微博</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">窝窝团开心网主页</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">窝窝团豆瓣小组</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">手机版下载</a>
+					</div>
+				</div>
+				<div class="boul">
+					<div class="ico3"></div>
+					<div class="lix">商务合作</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">商家入驻</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">提供团购信息</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">有情链接</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">开放API</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">代金券说明</a>
+					</div>
+				</div>
+				<div class="boul">
+					<div class="ico4"></div>
+					<div class="lix">公司信息</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">关于我们</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">媒体报道</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">加入我们</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">隐私声明</a>
+					</div>
+					<div class="lix1">
+						<a class="bolist-a" href="">用户协议</a>
+					</div>
+				</div>
+				<div class="kefu">
+					<h2 id="kh1"></h2>
+					<h2 id="kh2">24小时客服热线</h2>
+					<h2 id="kh3"></h2>
+					<a id="kh4" href=""></a>
+					<a id="kh5" href=""></a>
+				</div>
+			</div>
+		</div>
+		<div class="btm">
+			<div id="btm1">
+				© 2010-2013 55tuan.com 京ICP证100702号 京公海网安备110108000829号 
+			</div>
+			<div id="wowofawu">
+				<a id="fawu1" href=""></a>
+				<a id="fawu1" href=""></a>
+				<a id="fawu2" href=""></a>
+				<a id="fawu3" href=""></a>
+				<a id="fawu4" href=""></a>
+			</div>
+		</div>
+		<div id="ritcode"></div>
+	</body>
